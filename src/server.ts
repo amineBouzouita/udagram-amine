@@ -46,7 +46,7 @@ import express, { Router, Request, Response } from 'express';
   // Root Endpoint
   // Displays a simple message to the user
   app.get( "/", async ( req, res ) => {
-    res.send("try GET /filteredimage?image_url={{}}")
+    res.send("try GET /filteredimage?image_url=https://images.pexels.com/photos/12581576/pexels-photo-12581576.jpeg?auto=compress%26cs=tinysrgb%26w=1260%26h=750%26dpr=2   or http://udagramtry10-env.eba-cpt8i3gp.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://images.pexels.com/photos/12581576/pexels-photo-12581576.jpeg?auto=compress%26cs=tinysrgb%26w=1260%26h=750%26dpr=2")
   } );
   
 
